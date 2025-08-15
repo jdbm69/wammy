@@ -3,9 +3,8 @@
     "loss_type":  "wind",
     "images":  
     [
-        "https://wind-claims-jdbm-us-east-1.s3.us-east-1.amazonaws.com/claims/83lote/item_c6769fa7-f4d2-4af3-83f7-e19c2659d34c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2Q5KQMVBGDGVESOZ%2F20250814%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250814T160711Z\u0026X-Amz-Expires=86400\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=82219a8f07998fbccb739be9245f5c31ac72711ab0b2feedfda74ee98c8f9c3a",
-        "https://wind-claims-jdbm-us-east-1.s3.us-east-1.amazonaws.com/claims/83lote/item_eae7289d-bd21-44b3-945b-53061205e364.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2Q5KQMVBGDGVESOZ%2F20250814%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250814T160718Z\u0026X-Amz-Expires=86400\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=23aa6171060745bb5df454f3503b90f62424a7dd41c8c9c8b4c24153f03653dc",
-        "https://wind-claims-jdbm-us-east-1.s3.us-east-1.amazonaws.com/claims/83lote/item_f862dc7f-ed87-4887-8511-32c18bde0fce.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2Q5KQMVBGDGVESOZ%2F20250814%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250814T160722Z\u0026X-Amz-Expires=86400\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=50469b8f8446786c869d7eb3098b80be0a70efecf0a95608e9b68d937d13ff10",
-        "https://wind-claims-jdbm-us-east-1.s3.us-east-1.amazonaws.com/claims/83lote/item_2b18b44f-3307-42fd-9cc4-97914ebe6ab7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2Q5KQMVBGDGVESOZ%2F20250814%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250814T160643Z\u0026X-Amz-Expires=86400\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=b6feda8b488ed81c7166aeeab1a2d0a30ba2efcc2cb609d0cb7e6d781a6f3324"
-    ]
+        "https://raw.githubusercontent.com/jdbm69/wammy/main/test/images/item1.jpg",
+        "https://raw.githubusercontent.com/jdbm69/wammy/main/test/images/item2.jpg",
+        "https://raw.githubusercontent.com/jdbm69/wammy/main/test/images/item3.jpg",
+        "https://raw.githubusercontent.com/jdbm69/wammy/main/test/images/item4.jpg"
 }
