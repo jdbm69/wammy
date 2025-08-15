@@ -1,8 +1,5 @@
 // Handler del Lambda HTTP, lee y parsea el body del evento
 
-import * as dotenv from 'dotenv';
-dotenv.config();
-
 import { nanoid } from 'nanoid';
 import { RequestSchema } from './lib/schema';
 import { buildEmptyAggregateResponse, type AggregateResponse } from './lib/response';
