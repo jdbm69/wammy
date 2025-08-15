@@ -1,0 +1,24 @@
+# Dependencias
+node_modules/
+src/node_modules/
+iac/node_modules/
+
+# Builds
+dist/
+src/dist/
+iac/dist/
+
+# AWS CDK outputs
+cdk.out/
+iac/cdk.out/
+
+# Archivos de entorno
+.env
+.env.*
+!.env.example
+
+# SO / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

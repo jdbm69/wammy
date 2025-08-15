@@ -1,0 +1,22 @@
+{
+  "name": "iac",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "cdk:bootstrap": "cdk bootstrap",
+    "cdk:deploy": "cdk deploy",
+    "cdk:destroy": "cdk destroy",
+    "deploy": "npm run cdk:deploy",
+    "destroy": "npm run cdk:destroy"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.211.0",
+    "constructs": "^10.4.2",
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.0",
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.2"
+  }
+}

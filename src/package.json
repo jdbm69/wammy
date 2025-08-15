@@ -1,0 +1,19 @@
+{
+  "name": "lambda",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "jimp": "^0.22.12",
+    "nanoid": "^5.1.5",
+    "p-limit": "^6.2.0",
+    "zod": "^4.0.17"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.152",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "wamy-wind-aggregator",
+  "private": true,
+  "scripts": {
+    "src:build": "npm --prefix ./src run build",
+    "iac:deploy": "npm --prefix ./iac run deploy",
+    "iac:destroy": "npm --prefix ./iac run destroy",
+    "bootstrap": "npm --prefix ./iac run cdk:bootstrap",
+    "deploy": "npm run src:build && npm run iac:deploy"
+  }
+}
