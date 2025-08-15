@@ -5,7 +5,7 @@
     "src:build": "npm --prefix ./src run build",
     "iac:deploy": "npm --prefix ./iac run deploy",
     "iac:destroy": "npm --prefix ./iac run destroy",
-    "bootstrap": "npm --prefix ./iac run cdk:bootstrap",
-    "deploy": "npm run src:build && npm run iac:deploy"
+    "bootstrap": "npm --prefix ./src install && npm --prefix ./iac install && npm --prefix ./iac run cdk:bootstrap",
+    "deploy": "npm --prefix ./src run build && npm --prefix ./iac run deploy"
   }
 }

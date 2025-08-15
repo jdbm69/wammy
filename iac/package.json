@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "cdk:bootstrap": "cdk bootstrap",
-    "cdk:deploy": "cdk deploy",
-    "cdk:destroy": "cdk destroy",
+    "cdk:bootstrap": "npx cdk bootstrap",
+    "cdk:deploy": "npx cdk deploy",
+    "cdk:destroy": "npx cdk destroy",
     "deploy": "npm run cdk:deploy",
     "destroy": "npm run cdk:destroy"
   },
