@@ -22,3 +22,6 @@ iac/cdk.out/
 Thumbs.db
 .vscode/
 .idea/
+
+# Ignorar lockfile de la raíz
+/package-lock.json
