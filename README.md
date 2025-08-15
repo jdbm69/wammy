@@ -4,7 +4,7 @@ Servicio serverless en **AWS Lambda** + **API Gateway** que recibe un payload co
 
 ## 📦 Estructura del repositorio
 
-```plaintext
+```
 ├─ src/               # Código de la Lambda (TypeScript)
 │  ├─ handler.ts
 │  └─ lib/...
@@ -19,6 +19,7 @@ Servicio serverless en **AWS Lambda** + **API Gateway** que recibe un payload co
 ├─ .env.example
 ├─ .gitignore
 └─ README.md
+```
 
 ## 🚀 Despliegue en un solo comando
 
@@ -34,12 +35,12 @@ Crea un archivo .env en la raíz:
 - OPENAI_API_KEY=<tu API key>
 
 Ejemplo de archivo de referencia: 
-```.env.example.
+```.env.example.```
 
 ### 3. *Despliegue*
 Desde la raíz del repositorio:
 ```npm run bootstrap   # Solo la primera vez
-```npm run deploy
+npm run deploy```
 
 Esto ejecutará:
 1. Compilación de la Lambda (src/ → dist/)
