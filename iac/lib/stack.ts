@@ -45,6 +45,6 @@ export class WamyStack extends cdk.Stack {
     });
 
     // Output con la URL base 
-    new cdk.CfnOutput(this, 'ApiUrl', { value: api.apiEndpoint });
+    new cdk.CfnOutput(this, 'ApiBaseUrl', { value: api.apiEndpoint });
   }
 }

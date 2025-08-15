@@ -15,7 +15,7 @@
             "count": 1,
             "avg_severity": 3,
             "representative_images": [
-                "https://wind-claims-jdbm-us-east-1.s3.us-east-1.amazonaws.com/claims/83lote/item_eae7289d-bd21-44b3-945b-53061205e364.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2Q5KQMVBGDGVESOZ%2F20250814%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250814T160718Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=23aa6171060745bb5df454f3503b90f62424a7dd41c8c9c8b4c24153f03653dc"
+                "https://raw.githubusercontent.com/jdbm69/wammy/main/test/images/item1.jpg"
             ],
             "notes": "Shingles appear lifted and damaged."
         }
